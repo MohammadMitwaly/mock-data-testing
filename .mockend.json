@@ -1,4 +1,11 @@
 {
+  "User": {
+    "uuid": "string",
+    "name": "string",
+    "age": "int",
+    "posts": "Post[]",
+    "isAdmin": "boolean"
+  },
   "Post": {
     "title": "string",
     "views": "int",
@@ -8,13 +15,7 @@
   },
   "Comment": {
     "body": "string",
+    "user": "User",
     "post": "Post"
-  },
-  "User": {
-    "id": "string",
-    "name": "string",
-    "age": "int",
-    "posts": "Post[]",
-    "isAdmin": "boolean"
   }
 }
