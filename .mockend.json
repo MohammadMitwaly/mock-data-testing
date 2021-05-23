@@ -1,0 +1,20 @@
+{
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  },
+  "User": {
+    "id": "string",
+    "name": "string",
+    "age": "int",
+    "posts": "Post[]",
+    "isAdmin": "boolean"
+  }
+}
