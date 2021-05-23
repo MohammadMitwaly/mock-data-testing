@@ -9,6 +9,7 @@
   "Post": {
     "title": "string",
     "views": "int",
+    "user": "User",
     "published": "boolean",
     "createdAt": "date",
     "comments": "Comment[]"
